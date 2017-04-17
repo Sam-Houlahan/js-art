@@ -31,7 +31,7 @@ function shape(){
   let blue = Math.random() * 255 >> 0;
   let color = "rgba(" + red + ", " + green + ", " + blue + ", 0.5)";
   ctx.beginPath();
-  ctx.rect(100, 150, Math.floor((Math.random() * 250) + 250), Math.floor((Math.random() * 250) + 250));
+  ctx.rect(50, 50, Math.floor((Math.random() * 950) + 250), Math.floor((Math.random() * 250) + 250));
   ctx.fillStyle = color;
 
   ctx.fill();
